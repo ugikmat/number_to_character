@@ -49,7 +49,7 @@ class NumberMappings {
      999999999: 'koma',
      100: 'seratus',
      1000: 'seribu',
-     10.000: 'juta',
+     10000: 'juta',
      100000: 'miliar',
      1000000: 'triliun',
      10000000: 'kuadriliun',
