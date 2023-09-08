@@ -10,9 +10,52 @@ class NumberMappings {
       this.mappings = mappingsAr;
     }else if(lang=='es'){
       this.mappings = mappingsEs;
+    }else if(lang=='id'){
+      this.mappings = mappingsId;
+    }else{
+      this.mappings = mappingsEn;
     }
   }
 
+  var mappingsId = {
+    1: 'satu',
+     2: 'dua',
+     3: 'tiga',
+     4: 'empat',
+     5: 'lima',
+     6: 'enam',
+     7: 'tujuh',
+     8: 'delapan',
+     9: 'sembilan',
+     10: 'sepuluh',
+     11: 'sebelas',
+     12: 'dua belas',
+     13: 'tiga belas',
+     14: 'empat belas',
+     15: 'lima belas',
+     16: 'enam belas',
+     17: 'tujuh belas',
+     18: 'delapan belas',
+     19: 'sembilan belas',
+     20: 'dua puluh',
+     30: 'tiga puluh',
+     40: 'empat puluh',
+     50: 'lima puluh',
+     60: 'enam puluh',
+     70: 'tujuh puluh',
+     80: 'delapan puluh',
+     90: 'sembilan puluh',
+     0: 'dan',
+     999999999: 'koma',
+     100: 'seratus',
+     1000: 'seribu',
+     10.000: 'juta',
+     100000: 'miliar',
+     1000000: 'triliun',
+     10000000: 'kuadriliun',
+     100000000: 'triliun',
+  };
+  
   var mappingsEn = {
     1: 'one',
     2: 'two',
